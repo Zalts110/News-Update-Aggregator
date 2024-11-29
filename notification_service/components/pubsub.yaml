@@ -1,0 +1,17 @@
+apiVersion: dapr.io/v1alpha1
+kind: Component
+metadata:
+  name: pubsub # This name must match the one used in your subscription.yaml
+  namespace: default
+spec:
+  type: pubsub.rabbitmq # Dapr built-in component for RabbitMQ
+  version: v1
+  metadata:
+    - name: connectionString
+      value: "amqp://guest:guest@rabbitmq:5672" # RabbitMQ server URL
+    - name: durable
+      value: "true"
+    - name: deleteWhenUnused
+      value: "false"
+    - name: lazy
+      value: "false"

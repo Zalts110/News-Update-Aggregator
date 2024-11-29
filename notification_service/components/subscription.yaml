@@ -1,0 +1,10 @@
+apiVersion: dapr.io/v1alpha1
+kind: Subscription
+metadata:
+  name: notification-subscription
+spec:
+  topic: notifications # Topic to subscribe to
+  route: /notification/send # Route to receive the messages
+  pubsubname: pubsub # Name of the pubsub component
+scopes:
+  - notification_service # App ID of the subscribing service

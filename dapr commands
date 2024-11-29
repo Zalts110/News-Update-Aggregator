@@ -1,0 +1,4 @@
+dapr run --app-id news_aggregation_service --log-level fatal --app-port 5001 -- python app.py 
+dapr run --app-id user_service --log-level fatal --app-port 5000 -- python app.py 
+dapr run --app-id orch_service --log-level fatal --app-port 5003 -- python app.py
+dapr run --app-id notification_service --log-level fatal --app-port 5002 -- python app.py  
