@@ -5,7 +5,6 @@ This application aggregates news and updates based on user preferences. It provi
 ## Features
 
 - Fetches news from a single API source.
-- Summarizes news articles for a concise overview.
 - Delivers personalized updates via email based on user preferences.
 - Microservice-based architecture with Dapr for service communication.
 - Dockerized for easy deployment.
