@@ -1,6 +1,3 @@
-# Updating the README content based on the user's feedback
-
-readme_content_updated = """
 # Personalized News Update Aggregator
 
 This application aggregates news and updates based on user preferences. It provides a personalized news feed and delivers updates via email.
