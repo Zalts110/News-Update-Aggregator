@@ -67,6 +67,7 @@ Each service has its own directory with the following structure:
 - **User Service**: `/users` (manage user profiles)
 - **News Aggregation Service**: `/news` (fetch and view news articles)
 - **Notification Service**: `/notification/send` (trigger email notifications)
+- **Orchestration Service:**:`/api/get_news_and_notify`(trigger the whole flaw)
 
 ## Future Enhancements
 
