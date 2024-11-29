@@ -80,8 +80,3 @@ Each service has its own directory with the following structure:
 Developed using Dapr, Flask, and Docker. Contributions are welcome!
 """
 
-# Writing the updated README content to a file
-with open("README.md", "w") as readme_file:
-    readme_file.write(readme_content_updated)
-
-"README.md file has been successfully created."
